@@ -28,6 +28,7 @@
   - [Window Methods](#window-methods)
     - [Window alert() method](#window-alert-method)
   - [Date Object](#date-object)
+    - [Date Get group functions in Javascript](#date-get-group-functions-in-javascript)
     - [Creating a time object](#creating-a-time-object)
     - [Getting full year](#getting-full-year)
     - [Getting month](#getting-month)
@@ -37,6 +38,7 @@
     - [Getting minutes](#getting-minutes)
     - [Getting seconds](#getting-seconds)
     - [Getting time](#getting-time)
+    - [Date Set group functions in Javascript](#date-set-group-functions-in-javascript)
   - [💻 Day 3: Exercises](#-day-3-exercises)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
@@ -318,7 +320,7 @@ number > 0
 
 - Mặc dù trông có vẻ rất hữu ích trong việc check conditions javascript, nhưng conditions ternary lại không hợp lệ trong những trường hợp sau:
 
-# không thể break khi dùng ternary operator
+Không thể break khi dùng ternary operator
 
 ```js
 let animal = 'kitty';
@@ -327,7 +329,7 @@ for (let i = 0; i < 5; ++i) {
 }
 ```
 
-# không thể return khi dùng ternary operator
+Không thể return khi dùng ternary operator
 
 ```js
 var animal = 'kitty';
@@ -363,7 +365,7 @@ alert("Welcome to 30DaysOfJavaScript");
 
 Trong JavaScript, thời gian và ngày hiện tại được tạo bằng cách sử dụng JavaScript Date Object. Trong Javascript tổng cộng có 10 hàm thiết lập thời gian thông dụng:
 
-# Các hàm nhóm Date Get trong Javascript:
+### Date Get group functions in Javascript
 
 ```sh
 
@@ -488,7 +490,7 @@ const minutes = now.getMinutes(); // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`); // 4/1/2020 0:56
 ```
 
-# Các nhàm nhóm Date Set trong Javascript
+### Date Set group functions in Javascript
 
 Tương ứng với mỗi hàm Date Get thì sẽ có một hàm Date Set (trừ hàm getDay()).
 
