@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Introduction</h1>
+  <h1> 30 Days Of JavaScript: Data Types</h1>
 <sub>Author:
 <a href="https://www.facebook.com/tung.lexuan.33449138/" target="_blank">TungLx</a><br>
 <small> January, 2022</small>
